@@ -41,7 +41,7 @@ brew install whiptail
 ## Running Contact Manager
 ### Get the appication first by cloning it from github
 ```bash
-git clone "https://github.com/ElrohiFilmon/Bash/Contact_Manager
+git clone "https://github.com/ElrohiFilmon/Contact-Manager
 ```
 
 ### Run it using it main script

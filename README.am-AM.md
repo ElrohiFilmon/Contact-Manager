@@ -45,7 +45,7 @@ brew install whiptail
 ## እንዴት ነው አሰራሩ
 ### መጀመሪያ መተግበሪያውን ከgithub በማውረድ 
 ```bash
-git clone "https://github.com/ElrohiFilmon/Bash/Contact_Manager
+git clone "https://github.com/ElrohiFilmon/Contact-Manager
 ```
 
 ### ዋናውን ስክሪፕት በመጠቀም ጀምር
