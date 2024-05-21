@@ -48,6 +48,19 @@ brew install whiptail
 ```bash
 git clone "https://github.com/ElrohiFilmon/Contact-Manager
 ```
+### በመጠቀም ሁነታዎቹን ይቀይሩ
+#### ለሚተገበሩ ፋይሎች
+``` bash
+chmod u+x "script_files.sh" #የስክሪፕቱ ፋይሎች
+```
+#### ለ csv ፋይሎች ያንብቡ
+``` bash
+chmod u+r "csv_files.csv" #የ csv ፋይሎች
+```
+#### ለ csv ፋይሎች ይፃፉ
+``` bash
+chmod u+w "csv_files.csv" #የ csv ፋይሎች
+```
 
 ### ዋናውን ስክሪፕት በመጠቀም ጀምር
 ```bash
@@ -96,7 +109,8 @@ git clone "https://github.com/ElrohiFilmon/Contact-Manager
 ## የወደፊት ማሻሻያዎች
     - ለቀጣዩ እትም የማይታዩ ግን ግምት ውስጥ የማይገቡ አንዳንድ ባህሪያት አሉ።
     ፩. የተሻለ የማሳያ ሜኑ ቀረጻ በአዲስ ዊፕታይል ስሪቶች ሊፈታ ይችላል።
-
+    ፪. የተሻለ የፍለጋ ተግባር ያክሉ
+    ፫. ለፍለጋ ፋይሉ ፋይሉን ካላገኘ የስህተት መልእክት መጨመር
 ## References
 
 - [Wikibooks](https://en.wikibooks.org/wiki/Bash_Shell_Scripting/Whiptail)

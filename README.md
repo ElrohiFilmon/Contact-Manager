@@ -44,7 +44,22 @@ brew install whiptail
 git clone "https://github.com/ElrohiFilmon/Contact-Manager
 ```
 
+### Change the modes using 
+#### For the executable files  
+```bash
+chmod u+x "script_files.sh" #The script files 
+```
+#### For the csv files read   
+```bash
+chmod u+r "csv_files.csv" #The csv files 
+```
+#### For the csv files write
+```bash
+chmod u+w "csv_files.csv" #The csv files 
+```
+
 ### Run it using it main script
+
 ```bash
 ./contact_manager.sh
 ```
@@ -92,8 +107,8 @@ git clone "https://github.com/ElrohiFilmon/Contact-Manager
 ## Future Enhancements
     - There are some features that are not in but inconsideration for the next version
     1. Better display menu implimenation might be solved in new whiptail versions
-
-
+    2. Add a better search function 
+    3. Adding an error message for the search file if it doesn't find the file 
 ## References
 
 - [Wikibooks](https://en.wikibooks.org/wiki/Bash_Shell_Scripting/Whiptail)
