@@ -33,8 +33,8 @@ enter(){
   NFN=$(whiptail --inputbox "Enter the contact's first name : " 8 39 FirstName --title "First Name" 3>&1 1>&2 2>&3)
   NLN=$(whiptail --inputbox "Enter the contact's last name : " 8 39 LastName --title "Last Name" 3>&1 1>&2 2>&3)
   NPN=$(whiptail --inputbox "Enter the contact's phone number : " 8 39 Number  --title "Phone Number" 3>&1 1>&2 2>&3)
-  NEA=$(whiptail --inputbox "Enter the contact's Email Address (leave blank to keep existing): " 8 39 Email  --title "Email Address" 3>&1 1>&2 2>&3)
-  NG=$(whiptail --inputbox "Enter the contact's group (leave blank to keep existing): " 8 39 Group  --title "Grouping" 3>&1 1>&2 2>&3)
+  NEA=$(whiptail --inputbox "Enter the contact's Email Address : " 8 39 Email  --title "Email Address" 3>&1 1>&2 2>&3)
+  NG=$(whiptail --inputbox "Enter the contact's group : " 8 39 Group  --title "Grouping" 3>&1 1>&2 2>&3)
 }
 enter
 if whiptail --title "Update Notice" --yesno "Are these your input values? \n $NFN \n$NLN \n $NPN \n $NEA \n $NG " 0 0; then
