@@ -28,4 +28,3 @@ whiptail --msgbox "Contact '$firstName'contact added successfully!" 10 50
 sleep 0.5| whiptail --gauge "Please wait while we are loading up contact manager..." 6 50 0
 ./contact_manager.sh
 
-
