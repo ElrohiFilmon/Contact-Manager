@@ -2,7 +2,7 @@
 
 _Read this in other languages:_
 [_አማርኛ_](README.am-AM.md)
-
+[_English_](README.md)
 In computer systems, a contact manager plays an important role in storing user data.
 This can be further implemented in our servers for storing client data and so on.
 It's fluid working make it easy for the user to add any Faster
